@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: grid;
+    height:100vh;
+    place-items: center;
+    background: #be2edd;
+}
+.main_div{
+    width: 365px ;
+    padding: 30px;
+    background-color: #ffd;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0,0,0.15);
+}
+.main_div .title{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 23px;
+}
+.main_div .social_icons{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;   
+}
+.main_div .social_icons a{
+    display: flex;
+    align-items: center;
+    gap:3px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.main_div .social_icons a span{
+    font-size: 17px;
+}
+.main_div .social_icons a:first-child{
+    background:#4267b2 ;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+.main_div .social_icons a:first-child:hover{
+    background: #375695;
+}
+.main_div .social_icons a:last-child{
+    background: #1da1f2;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+.main_div .social_icons a:last-child:hover{
+    background-color: #0d8bd9;
+}
